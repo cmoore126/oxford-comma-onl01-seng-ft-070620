@@ -1,3 +1,15 @@
 def oxford_comma(array)
- array.join(" , ")
+
+  if (array.length == 1)
+   return array.join(",")
+
+ elsif (array.length == 2)
+   return array.join(" ")
+
+ elsif (array.length == 3)
+   return array.join(" ")
+else(array.length > 3)
+  return array.join(" ")
+
+  end
  end
